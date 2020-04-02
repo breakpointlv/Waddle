@@ -11,7 +11,8 @@ use Waddle\TrackPoint;
 
 class TCXParser extends Parser
 {
-    const NS_ACTIVITY_EXTENSION_V2 = 'https://www8.garmin.com/xmlschemas/ActivityExtensionv2.xsd';
+    // garmin xml schema
+    const NS_ACTIVITY_EXTENSION_V2 =  'https://www8.garmin.com/xmlschemas/ActivityExtensionv2.xsd';
 
     /** @var string */
     private $nameNSActivityExtensionV2;
